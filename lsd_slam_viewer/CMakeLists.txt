@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 2.4.6)
+SET(CMAKE_OSX_SYSROOT macosx10.10)
 project(lsd_slam_viewer)
 include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
 
